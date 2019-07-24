@@ -58,7 +58,9 @@ Unit Test
 
 <img width="1435" alt="Screenshot 2019-07-24 at 13 54 58" src="https://user-images.githubusercontent.com/39112648/61795151-a90b8d00-ae1a-11e9-88af-ac498bafec6c.png">
 
+## Acknowledgements
 
+Dominic White | A Makers Academy Challenge
 
 
 
