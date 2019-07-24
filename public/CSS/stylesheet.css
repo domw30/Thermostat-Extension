@@ -6,6 +6,11 @@ body {
   font-family: 'Nanum Myeongjo', serif;
 }
 
+.search {
+  text-align: center;
+  font-size: 30px;
+}
+
 .low-usage {
   background-color: #C3FAA9;
 }
