@@ -1,17 +1,22 @@
+#temperature {
+  font-size: 40px;
+}
+
 body {
   font-family: 'Nanum Myeongjo', serif;
 }
 
 .low-usage {
-  color: green;
+  background-color: #C3FAA9;
+  width: 50%;
 }
 
 .medium-usage {
-  color: blue;
+  background-color: #A9DEF9;
 }
 
 .high-usage {
-  color: red;
+  background-color: #A83731;
 }
 
 .cards-list {
@@ -49,7 +54,7 @@ body {
   border-radius: 0px 0px 40px 40px;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 30px;
-  margin-top: -200px;
+  margin-top: -215px;
   height: 40px;
 }
 
@@ -61,6 +66,21 @@ body {
 
 .title-white {
   color: white;
+}
+
+.page-title {
+  font-size: 100px;
+  text-align: center;
+}
+
+.page-title-2 {
+  font-size: 30px;
+  margin-top: -80px;
+  text-align: center;
+}
+
+.function {
+  text-align: center;
 }
 
 @media all and (max-width: 500px) {
