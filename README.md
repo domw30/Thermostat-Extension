@@ -1,6 +1,6 @@
 # Thermostat
 
-<img width="1439" alt="Screenshot 2019-07-24 at 13 31 18" src="https://user-images.githubusercontent.com/39112648/61793596-65fbea80-ae17-11e9-93a3-ca10875f6994.png">
+<img width="1435" alt="Screenshot 2019-07-24 at 14 16 14" src="https://user-images.githubusercontent.com/39112648/61796705-db6ab980-ae1d-11e9-9d2d-0b3fd420ffcb.png">
 
 The aim of the Thermostat project was to test drive a simple front-end web app using Javascript, with the specification below. It uses a weather API to check the weather of various cities around the United Kingdom, so that the user is able to compare the difference of temperatures across the country.
 
