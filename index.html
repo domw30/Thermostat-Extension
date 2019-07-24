@@ -9,19 +9,6 @@
   <body>
     <script type="text/javascript" src="jquery.js"></script>
     <section>
-      <h1>Current temperature: <span id="current-temperature"></span></h1>
-      <select id="current-city">
-        <option value="bristol">Bristol</option>
-        <option value="cardiff">Cardiff</option>
-        <option value="dublin">Dublin</option>
-        <option value="edinburgh">Edinburgh</option>
-        <option value="glasgow">Glasgow</option>
-        <option value="liverpool">Liverpool</option>
-        <option value="london">London</option>
-        <option value="newcastle">Newcastle</option>
-      </select>
-    </section>
-    <section>
       <h1 id="temperature"></h1>
       <p>
         <button id="temperature-up">+</button>
@@ -40,6 +27,7 @@
           </div>
           <div class="card_title title-white">
             <p>LONDON</p>
+            <p><span id="current-temperature-london"></span></p>
           </div>
         </div>
         <div class="card 2">
@@ -48,6 +36,7 @@
           </div>
           <div class="card_title title-white">
             <p>CARDIFF</p>
+            <p><span id="current-temperature-cardiff"></span></p>
           </div>
         </div>
         <div class="card 3">
@@ -56,14 +45,16 @@
           </div>
           <div class="card_title title-white">
             <p>EDINBURGH</p>
+            <p><span id="current-temperature-edinburgh"></span></p>
           </div>
         </div>
         <div class="card 4">
           <div class="card_image">
-            <img src="https://images.unsplash.com/photo-1518005068251-37900150dfca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80" />
+            <img src="https://images.unsplash.com/photo-1540927764194-35c5c166886e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" />
           </div>
           <div class="card_title title-white">
             <p>DUBLIN</p>
+            <p><span id="current-temperature-dublin"></span></p>
           </div>
         </div>
         <div class="card 5">
@@ -72,6 +63,7 @@
           </div>
           <div class="card_title title-white">
             <p>BRISTOL</p>
+            <p><span id="current-temperature-bristol"></span></p>
           </div>
         </div>
         <div class="card 6">
@@ -80,6 +72,7 @@
           </div>
           <div class="card_title title-white">
             <p>GLASGOW</p>
+            <p><span id="current-temperature-glasgow"></span></p>
           </div>
         </div>
         <div class="card 7">
@@ -88,6 +81,7 @@
           </div>
           <div class="card_title title-white">
             <p>LIVERPOOL</p>
+            <p><span id="current-temperature-liverpool"></span></p>
           </div>
         </div>
         <div class="card 8">
@@ -96,10 +90,12 @@
           </div>
           <div class="card_title title-white">
             <p>NEWCASTLE</p>
+            <p><span id="current-temperature-newcastle"></span></p>
           </div>
         </div>
       </div>
     <script src="src/thermostat.js"></script>
     <script src="src/interface.js"></script>
+    <script src="src/cities.js"></script>
   </body>
 </html>
